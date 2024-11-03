@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+.container{
+    height: 5000px;
+    background-color: whitesmoke;
+   
+}
+.box{
+    height: 150px;
+    background-color: rgb(235, 24, 182);
+    color: whitesmoke;
+    text-align: center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.box1{
+    height: 50px;
+    background-color: black;
+    color: whitesmoke;
+
+    display:flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 70px;
+
+    position: relative;
+    top: 1px;
+    position: sticky;
+
+}
+.abhi{
+    margin:70px;
+}
+.box2{
+    margin: 10px;
+
+}
+.box5{
+    margin: 20x;
+}

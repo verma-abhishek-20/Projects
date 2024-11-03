@@ -1,0 +1,170 @@
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-image: url("Natureimg2.jpg");
+            background-size: cover;
+
+        }
+        .header_content{
+            height: 50px;
+            background-color: black;
+            color: white;
+            font-size: 0.9rem;
+          
+            display:flex;
+            align-items: center;
+            justify-content: space-evenly;
+        
+        }
+        h1{
+            color: rgb(255, 94, 0);
+        }
+        .search_header{
+            width: 200px;
+            height: 30px;
+            border: 0.1rem solid rgb(110, 83, 57);
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+
+            display:flex;
+            align-items: center;
+            padding-left: 5px;
+        }
+        .writting_content{
+            padding-top: 15vh;
+        }
+        .heading_content {
+            color: whitesmoke;
+            margin: 5px;
+            font-size: 1.2rem;
+            width: 700px;
+        }
+        .writting_content{
+            margin: 5px;
+
+            display: flex;
+            justify-content: space-around;
+
+            flex-wrap: wrap;
+        }
+        .button_foot{
+            width: 110px;
+            height: 30px;
+            margin: 10px;
+            font-size: 1rem;
+            background-color: rgb(255, 94, 0);
+            border: none;
+            border-radius: 5px;
+        }
+        .button_foot:hover{
+            box-shadow: 12px 12px 12px black;
+            
+        }
+        .box2{
+            width: 320px;
+            height: 470px;
+            background-color: black;
+            border-radius: 5px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+        }
+        .p_box2{
+            height: 40px;
+            width: 280px;
+            margin: 7px;
+            font-size: 1.5rem;
+            color: orange;
+            background-color: white;
+            
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        .buttom_box3{
+            height: 40px;
+            width: 280px;
+            font-size: 1.2rem;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .search_para{
+
+            display: flex;
+        }
+        .buttom_search{
+            width: 80px;
+            height: 30px;
+            background-color: rgb(255, 72, 0);
+            border: none;
+            color: white;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        .box2:hover{
+            transform:scale(1.1);
+            transition-duration: 200ms;
+            background-color:  rgb(255, 94, 0);
+           
+        }
+        .header_heading:hover{
+            transform:scale(1.1,1.1);
+            transition-duration: 200ms;
+            color: rgb(230, 77, 21);
+        }
+
+
+        /* RESPONSIVE BNANE KE LIYE */
+        @media (max-width:700px){
+            .container{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+            .header_content{
+                width: 100%;
+                font-size: 12px;
+
+            }
+            .search_para{
+                display: none;
+            }
+            .heading_content{
+                font-size: 15px;
+            }
+            .button_foot {
+                width: 5rem;
+                font-size: 0.9rem;
+            }
+            .box2 {
+                width: 50%;
+                height: 300px;
+               
+            }
+            .p_box2{
+                width: 90%;
+                height: 2rem;
+            }
+            .buttom_box3{
+               width: 11rem;
+               height: 2rem;
+            }
+        }
+        
+      
+       
+
+
+
+

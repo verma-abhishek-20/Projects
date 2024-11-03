@@ -1,0 +1,33 @@
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing:border-box
+        }
+       
+        .box1{
+            height: 80px;
+           
+            background-color: rgb(47, 223, 76);
+        }
+        .box2{
+            height: 200px;
+            
+            background-color: whitesmoke;
+        }
+        .box3{
+            height: 80px;
+            background-color:rgb(47, 223, 76); 
+        }
+        .box5{
+            width: 150px;
+            height: 360px;
+            background-color: black;
+            color: white;
+
+            float: left;
+        }
+        b{
+            padding-left: 20px;
+        }
+ 
