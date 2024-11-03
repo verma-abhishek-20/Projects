@@ -1,0 +1,72 @@
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .abhi1{
+            width: 1000px;
+            height: 100px;
+            background-color: yellow;
+           text-align: center;
+           border-radius: 5px;
+           margin: 10px;
+
+          
+           
+        }
+        .abhi1:hover{
+            box-shadow: 6px 6px 9px black;
+        }
+       img{
+        width: 200px;
+        height: 100px;
+        float:left ;
+        border-radius: 5px;
+        /* position: relative; */
+    
+        box-shadow: 6px 6px 9px black;
+
+       
+
+       }
+       #k1{
+        background-color: pink;
+       position: fixed;
+       
+       }
+       #k2{
+        background-color:green ;
+        position: relative;
+
+       
+       }
+       #k3{
+        background-color:red ;
+       
+
+       }
+       #k4{
+        background-color:blueviolet ;
+       
+
+       }
+       #k5{
+        background-color: burlywood;
+       
+
+       }
+       #k6{
+        background-color: orange;
+       
+
+       }
+       .container{
+        height: 900px;
+        background-color: aquamarine;
+    
+    }
+       .img1{
+        float:right ;
+       }
+
