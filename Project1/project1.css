@@ -1,0 +1,36 @@
+#card{
+    width: 200px;
+    height: 200px;
+     border: 2px solid black;
+     display: inline-block;
+      margin: 5px;
+  box-shadow: 6px 6px 6px black;
+  text-align: center;
+   
+ 
+}
+img{
+    width: 100px;
+   
+    
+    border-radius: 7px;
+    transition: 2s;
+   box-shadow: 5px 5px 5px black;
+  
+  
+
+}
+ .abhi{
+   padding: 15px;
+}
+img:hover{
+    box-shadow: 12px 12px 12px black;
+}
+
+#card:hover{
+     box-shadow: 12px 12px 12px greenyellow;
+     transition-duration:2s;
+}
+
+
+ 
